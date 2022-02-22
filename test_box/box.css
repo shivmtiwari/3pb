@@ -2,8 +2,6 @@
 
 
 /* ============================================================boxes========================================= */
-
-
 .service .box-container{
     display: flex;
     align-items: center;
@@ -16,7 +14,7 @@
     padding:2rem;
     margin:1rem;
     flex:1 1 20rem;
-    border:.1px solid rgb(194, 185, 185);
+    border:.1px solid #999;
     text-align: center;
   }
   .box-container .box img{
@@ -37,7 +35,8 @@
   }
   
   .service .box-container .box:hover{
-    background:rgb(241, 243, 255);
+    background: #e1e1f7;
+    
   }
   
   .box .btn{
